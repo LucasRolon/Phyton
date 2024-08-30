@@ -1,3 +1,5 @@
+// Hacer un programa que calcule el precio final de un producto aplicando descuentos, entre un determinado rango de precios.
+
 precio=float
 preciofinal=float
 descuento=float
