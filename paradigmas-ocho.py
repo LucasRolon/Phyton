@@ -34,22 +34,22 @@ while inventario!=0:
 #----------- VENTA -----------------
     if estado==2 and inventario==1:
         ropavestir=ropavestir-1
-        if ropavestir <= 0:
+        if ropavestir <= -1:
             print("El producto deseado no se encuentra en stock. ")
             ropavestir=0
     if estado==2 and inventario == 2:
         pantalones=pantalones-1
-        if pantalones <= 0:
+        if pantalones <= -1:
             print("El producto deseado no se encuentra en stock. ")
             pantalones=0
     if estado==2 and inventario ==3:
         camisetas=camisetas-1
-        if camisetas <= 0:
+        if camisetas <= -1:
             print("El producto deseado no se encuentra en stock. ")
             camisetas=0
     if estado==2 and inventario == 4:
         vestidos=vestidos-1
-        if vestidos <= 0:
+        if vestidos <= -1:
             print("El producto deseado no se encuentra en stock. ")
             vestidos=0
 
